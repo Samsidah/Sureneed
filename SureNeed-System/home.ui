@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Home</class>
+ <widget class="QDialog" name="Home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>231</width>
+     <height>1041</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListView{
+background-color: #8B0000;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDonorList">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>160</y>
+     <width>231</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Pictures/lx.png&quot;);
+qproperty-iconSize: 25px 30px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Donor List</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnRequest">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>230</y>
+     <width>231</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Pictures/CCC102 SYSTEM/window-add-xxl.png&quot;);
+qproperty-iconSize: 25px 25px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Request</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>260</y>
+     <width>271</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+border: 0px;
+border-image: url(&quot;C:/Users/clint/Pictures/sblood.png&quot;);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_2">
+   <property name="geometry">
+    <rect>
+     <x>-5</x>
+     <y>0</y>
+     <width>1931</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListView{
+background-color: #000000;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>480</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sitka Text Semibold</family>
+     <pointsize>18</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+color:#000000;
+}</string>
+   </property>
+   <property name="text">
+    <string>Welcome to Sureneed</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnArchive">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>310</y>
+     <width>231</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Downloads/consumer (1).png&quot;);
+qproperty-iconSize: 35px 35px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Consumer</string>
+   </property>
+  </widget>
+  <widget class="QCalendarWidget" name="calendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>1390</x>
+     <y>460</y>
+     <width>401</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnArchive_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>390</y>
+     <width>231</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Downloads/donor-card.png&quot;);
+qproperty-iconSize: 35px 35px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Donor</string>
+   </property>
+  </widget>
+  <zorder>listView_2</zorder>
+  <zorder>listView</zorder>
+  <zorder>btnDonorList</zorder>
+  <zorder>btnRequest</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>btnArchive</zorder>
+  <zorder>calendarWidget</zorder>
+  <zorder>btnArchive_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

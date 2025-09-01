@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DonorList</class>
+ <widget class="QDialog" name="DonorList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Donor List</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="btnUpdate">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>41</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Downloads/up-removebg-preview.png&quot;);
+qproperty-iconSize: 25px 30px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDelete">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>60</y>
+     <width>41</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Downloads/del-removebg-preview.png&quot;);
+qproperty-iconSize: 25px 30px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnShow">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>60</y>
+     <width>41</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Pictures/2623471-show.png&quot;);
+qproperty-iconSize: 25px 30px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>781</width>
+     <height>501</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSearch">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>60</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Pictures/CCC102 SYSTEM/personal-information-18.png&quot;);
+qproperty-iconSize: 25px 45px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtDateofBirth">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>141</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>0</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+image: url(&quot;C:/Users/clint/Pictures/sblood.png&quot;);
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>50</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Donors</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>30</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Sureneed</string>
+   </property>
+  </widget>
+  <zorder>btnUpdate</zorder>
+  <zorder>btnDelete</zorder>
+  <zorder>btnShow</zorder>
+  <zorder>tableView</zorder>
+  <zorder>btnSearch</zorder>
+  <zorder>txtDateofBirth</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+  <zorder>widget</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

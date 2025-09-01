@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Requests</class>
+ <widget class="QDialog" name="Requests">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Blood Request</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background:#8B0000;
+
+}</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>761</width>
+     <height>501</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUpdate">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>40</y>
+     <width>41</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Downloads/up-removebg-preview.png&quot;);
+qproperty-iconSize: 25px 30px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDelete">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>40</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Downloads/del-removebg-preview.png&quot;);
+qproperty-iconSize: 25px 30px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnShow">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>40</y>
+     <width>41</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Pictures/2623471-show.png&quot;);
+qproperty-iconSize: 25px 30px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtCID">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>40</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="placeholderText">
+    <string>CID</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSearch">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>40</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+qproperty-icon: url(&quot;C:/Users/clint/Pictures/CCC102 SYSTEM/personal-information-18.png&quot;);
+qproperty-iconSize: 25px 45px;
+text-align: center;
+border: 40px;
+color: #ffffff;
+
+}
+QPushButton:enabled{
+background-color: dark gray;
+color: white;
+}
+QPushButton:pressed{
+background-color: #B22222;
+color: #fffffe;
+}
+QPushButton: hover: !pressed {
+background-color: #E1F4FF;
+color: #0c2f70;
+}
+QPushButton:disabled{
+background-color: #aaaaaa;
+color: #ffffff;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+image: url(&quot;C:/Users/clint/Pictures/sblood.png&quot;);
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Consumers</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sureneed</string>
+   </property>
+  </widget>
+  <zorder>widget</zorder>
+  <zorder>txtCID</zorder>
+  <zorder>tableView</zorder>
+  <zorder>btnUpdate</zorder>
+  <zorder>btnDelete</zorder>
+  <zorder>btnShow</zorder>
+  <zorder>btnSearch</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
